@@ -1,7 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+*.json linguist-detectable=false
 *.js linguist-detectable=false
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
-*.py linguist-detectable=true
-*.ipynb linguist-language=Python
